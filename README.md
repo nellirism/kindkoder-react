@@ -5,7 +5,6 @@
 5. [ License. ](#license)
 
 
-<a name="desc"></a>
 ## 1. Description
 
 
@@ -20,16 +19,14 @@
 
 ![ipad](https://user-images.githubusercontent.com/71202250/113500038-e1a8a880-94cf-11eb-84a7-25fabbc02912.JPG)?raw=true "Top-Page-Area")
 
-<a name="web-address"></a>
 ## 2. How to Get There
 
-### Open your favorite web browser and enter the following web address to access.
+### Open a browser and follow this link to access Nell-e's Portfolio.
 
-```html
+
 https://nellirism.github.io/kindkoder/
 
-```
-<a name="usage"></a>
+
 ## 3. Usage Tips
 
 
