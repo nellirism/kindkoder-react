@@ -16,11 +16,11 @@
 
 Desktop screen:
 
-![Top-Page-Area](./assets/images/home.JPG?raw=true "Top-Page-Area")
+![Hom](https://user-images.githubusercontent.com/71202250/113499956-1d8f3e00-94cf-11eb-8982-eb0b9ad3e8fd.JPG)?raw=true "Top-Page-Area")
 
 Smaller devices screen example:
 
-![Hom](https://user-images.githubusercontent.com/71202250/113499956-1d8f3e00-94cf-11eb-8982-eb0b9ad3e8fd.JPG)?raw=true "Top-Page-Area")
+
 
 <a name="web-address"></a>
 ## 2. How to Get There
