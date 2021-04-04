@@ -1,6 +1,6 @@
 1. [ Description. ](#desc)
-2. [ Web Address. ](#web-address)
-3. [ Usage tips. ](#usage)
+2. [ Web Address. ](#urlz)
+3. [ Usage tips. ](#tips)
 4. [ Contributing. ](#contributing)
 5. [ License. ](#license)
 
@@ -19,6 +19,7 @@
 
 ![ipad](https://user-images.githubusercontent.com/71202250/113500038-e1a8a880-94cf-11eb-84a7-25fabbc02912.JPG)
 
+<a name="urlz"></a>
 ## 2. How to Get There
 
 ### Open a browser and follow this link to access Nell-e's Portfolio.
@@ -26,7 +27,7 @@
 
 https://nellirism.github.io/kindkoder/
 
-
+<a name="tips"></a>
 ## 3. Usage Tips
 
 
