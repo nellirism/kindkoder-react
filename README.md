@@ -1,5 +1,6 @@
 
 
+
 1. [ Description. ](#desc)
 2. [ Web Address. ](#web-address)
 3. [ Usage tips. ](#usage)
@@ -14,13 +15,13 @@
 ### This Is the Landing Page - Nell-e Medina's Portfolio.
 
 
-Desktop screen:
+##Desktop screen:
 
 ![Hom](https://user-images.githubusercontent.com/71202250/113499956-1d8f3e00-94cf-11eb-8982-eb0b9ad3e8fd.JPG)?raw=true "Top-Page-Area")
 
-Smaller devices screen example:
+##Smaller devices screen example:
 
-
+![ipad](https://user-images.githubusercontent.com/71202250/113500038-e1a8a880-94cf-11eb-84a7-25fabbc02912.JPG)?raw=true "Top-Page-Area")
 
 <a name="web-address"></a>
 ## 2. How to Get There
