@@ -1,6 +1,6 @@
 1. [ Description. ](#desc)
 2. [ Follow the Link. ](#urlz)
-3. [ Instructions of Use. ](#tips)
+3. [ Instructions for Users. ](#tips)
 4. [ Contributing. ](#contributing)
 5. [ License. ](#license)
 
@@ -28,7 +28,7 @@
 https://nellirism.github.io/kindkoder/
 
 <a name="tips"></a>
-## 3. Instructions of Use
+## 3. Instructions for Users
 
 
 ### Use the top right navigation panel to visit the different sections of the web page.
