@@ -118,7 +118,7 @@ footer h2 {
 
 /* HERO */
 .hero {
-  background-image: url('../assets/images/hero.jpg');
+  /* background-image: url('../assets/images/hero.jpg'); */
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -126,7 +126,7 @@ footer h2 {
   align-items: flex-start;
   background-attachment: fixed;
   background-position: 80%;
-  opacity: 90%;
+  /* opacity: 70%; */
 }
 
 .hero-cta {
@@ -144,7 +144,7 @@ footer h2 {
 }
 .hero-cta p {
   font-size: 60px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: left;
 }
@@ -152,7 +152,7 @@ footer h2 {
 .callmethis {
   font-style: italic;
   font-weight: bolder;
-  color: var(--primary-color2lite);
+  color: black;
 }
 
 .hero-form {
@@ -313,7 +313,7 @@ footer h2 {
 /* SECTION TITLE STYLES START */
 
 .section-title {
-  font-size: 200px;
+  font-size: 140px;
   border-bottom: 3px solid;
   color: var(--secondary-color);
   padding-bottom: 20px;
@@ -461,7 +461,7 @@ footer h2 {
 .contact-form button {
   width: 100%;
   border: none;
-  background: var(--primary-color);
+  background: var(--primary-color); 
   color: var(--secondary-color);
   text-align: center;
   padding: 15px 0;
