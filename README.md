@@ -14,14 +14,9 @@ If you have any contributions to make, please reach out to me. I would love to h
 
 ##Desktop screen:
 
-![landing](https://user-images.githubusercontent.com/71202250/124372674-f4528b00-dc40-11eb-8f8b-0eb7fdb8a6c5.JPG)
+![landing](https://user-images.githubusercontent.com/71202250/124401443-79d84880-dcde-11eb-81f1-b797751a45db.JPG)
 
-![Landing2](https://user-images.githubusercontent.com/71202250/124372676-f74d7b80-dc40-11eb-8e89-e0ef5f0ef7c6.JPG)
-
-![story](https://user-images.githubusercontent.com/71202250/124372681-fae10280-dc40-11eb-9394-158f372c466c.jpg)
-
-![contact](https://user-images.githubusercontent.com/71202250/124372682-fe748980-dc40-11eb-8858-2648b080cfa5.JPG)
-
+![story](https://user-images.githubusercontent.com/71202250/124401451-852b7400-dcde-11eb-9cd8-e7f5d5c93ad3.jpg)
 
 ##Smaller devices screen example:
 
