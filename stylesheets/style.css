@@ -178,13 +178,13 @@ body {
 /* updated colours */
 
 .btn-primary {
-    color: #fff;
+    color: rgb(150, 110, 9);
     background-color: #7ab6f4;
     border-color: #7ab6f4;
 }
 
 .btn-primary:hover {
-    color: #fff;
+    color: rgb(150, 110, 9);
     background-color: #4282c0;
     border-color: #4282c0;
 }

@@ -39,7 +39,7 @@ ul {
 }
 
 .company-info {
-    background: #cfc7a4;
+    background: #d5dcd5;
 }
 
 .company-info h3,
@@ -82,13 +82,13 @@ ul {
 }
 
 .contact_form button {
-    color: #c0af63;
+    color: #065046;
     font-weight: bold;
     font-size: large;
 }
 
 .contact form button {
-    background: #c9e6ff;
+    background: #065046;
     border: 0;
     text-transform: uppercase;
 }

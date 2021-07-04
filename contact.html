@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+
+    <!-- Iconic -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="/public/stylesheets/style.css">
+    <link rel="stylesheet" href="/public/stylesheets/support.css">
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <!-- navbar with hamburger menu -->
+    <nav class="navbar sticky-top bg-white">
+        <div class="container-fluid align-middle">
+            <a class="navbar-brand" href="/">
+                <img src=" ./public/images/kindk.png " alt=" " width="40 " height="34 " class="d-inline-block align-text-top text-dark ">
+            </a>
+            <input class="menu-btn " type="checkbox " id="menu-btn " />
+            <label class="menu-icon " for="menu-btn "><span class="navicon "></span></label>
+            <ul class="menu ">
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/story.html ">Story</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <!-- <h1 class="brand"><span>hausKeepr</span> Tech Support</h1> -->
+        <div class="wrapper animated bounceInLeft">
+            <div class="company-info text-dark">
+                <img src="./public/images/kindk.png" alt="" width="50" height="44" class="d-inline-block align-text-top">
+
+                <ul>
+                    <li><i class="fa fa-road"></i> 99 Crimson Sunbird St., Reykjavik, IS</li>
+                    <li><i class="fa fa-phone"></i> (999) 999-9989</li>
+                    <li><i class="fa fa-envelope"></i>eliadmanner@mail.com</li>
+                </ul>
+            </div>
+
+            <div class="contact_form">
+                <h2 class="contact_form__title">Contact Us</h2>
+                <form method="POST" action="/api/support/sendemail">
+                    <div class="contact_form__inputGroup">
+                        <label>Name</label>
+                        <input type="text" name="name" placeholder="Please enter your name" />
+                    </div>
+                    <div class="contact_form__inputGroup">
+                        <label>Company</label>
+                        <input type="text" name="company" placeholder="Please enter your company" />
+                    </div>
+                    <div class="contact_form__inputGroup">
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="Please enter your email" />
+                    </div>
+                    <div class="contact_form__inputGroup">
+                        <label>Message</label>
+                        <input type="text" name="message" placeholder="Please provide a short message here" />
+                    </div>
+                    <button class="contact_form__submitBtn btn mt-2" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="navbar text-primary align-items-center border-top ">
+        <div class="container-fluid justify-content-center mt-5 ">
+            <h6 class=" ">&#128155; Designed by: &copy; Kind Koder </h6>
+        </div>
+
+        <div class="container justify-content-center text-dark ">
+            <div class="mx-2 ">
+                <p>About Me</p>
+            </div>
+            <div class="mx-2 ">
+                <p>
+                    <a href="/support ">Contact Me</a>
+                </p>
+            </div>
+        </div>
+    </nav>
+
+</body>
+
+</html>
