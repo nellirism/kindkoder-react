@@ -38,25 +38,11 @@ If you have any contributions to make, please reach out to me. I would love to h
 
 https://nellirism.github.io/kindkoder/
 
-<a name="tips"></a>
-## 3. Instructions for Users
-
-
-### Use the top right navigation panel to visit the different sections of the web page.
-
-Desktop screen:
-
-![nav](https://user-images.githubusercontent.com/71202250/113500117-5bd92d00-94d0-11eb-8a99-8de74a1498bd.JPG)
-
-
-Smaller devices screen example:
-
-![navsmall](https://user-images.githubusercontent.com/71202250/113500139-888d4480-94d0-11eb-94dc-cb2a3be1e51c.JPG)
 
 <a name="contributing"></a>
-## 4. Contributing
+## 3. Contributing
 Pull requests are welcome. For major changes, please notify the repository owner to further discuss the changes you would like to propose. 
 
 <a name="license"></a>
-## 5. License
+## 4. License
 None
