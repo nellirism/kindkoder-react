@@ -11,14 +11,14 @@ If you have any contributions to make, please reach out to me. I would love to h
 
 ### This Is the Landing Page to Nell-e Medina's Portfolio.
 
-##Desktop screen:
+## Desktop screen
 
 ![landing](https://user-images.githubusercontent.com/71202250/124401443-79d84880-dcde-11eb-81f1-b797751a45db.JPG)
 
 ![story](https://user-images.githubusercontent.com/71202250/124401536-db001c00-dcde-11eb-9319-776b519b35c3.jpg)
 
 
-##Smaller devices screen example:
+## Smaller devices screen example
 
 ![ipadpro](https://user-images.githubusercontent.com/71202250/124401548-e6ebde00-dcde-11eb-9595-af643485c20b.JPG)
 
