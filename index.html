@@ -1,235 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KindKoder: Nell-e Medina</title>
-    <link rel="shortcut icon" type="image/png" href="./assets/images/kindk.png"/>
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+
+    <!-- Iconic -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="/public/stylesheets/style.css">
+    <link rel="stylesheet" href="/public/stylesheets/support.css">
+
+    <title>My Portfolio</title>
 </head>
+
 <body>
-        <!--NAVIGATION -->
-        <header>
-            <div>
-                <span class="nelle">
-                    <a href="index.html"><img src="./assets/images/kindk.png" alt="portfolio owner" /></a>
-                 </span> 
-            </div>
-            
-            <nav>
-            <ul>
-                <li>
-                    <a href="#mystory">My Story</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#reach-out">Contact Us</a>
-                </li>
+    <!-- navbar with hamburger menu -->
+    <nav class="navbar sticky-top bg-white">
+        <div class="container-fluid align-middle">
+            <a class="navbar-brand" href="#">
+                <img src="./public/images/kindk.png" alt="" width="40" height="34" class="d-inline-block align-text-top text-dark"> A Genuine Smile Is Human Nature.
+            </a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/story">Story</a></li>
             </ul>
-            </nav>
-        </header>
-        <!-- NAVIGATION END -->
+        </div>
+    </nav>
 
-        <!-- HERO -->
-        <section class="hero">
-            <div class="hero-cta">
-                <h1>A Genuine Smile Is Human Nature.</h1> <br>
-                <p>
-                    Hello there! I am <span class="callmethis">Nell-e Medina</span>, a beginner coder with a mission of reaching out to other coders out there to build an application that could bring the world together. 
-                    I am always willing to learn new things, new skills and new knowledge in order to share it with others and encourage others to contribute to a more ethical and secure coding experience. 
-                </p>
-            </div>
-  
-            <!-- <div class="hero-form">
-                <h2>We Would Love To Send You A Resume!</h2>
-                <h3>Fill out this form and we will reach out to you.</h3>
-                <form>
-                    <label for="name">Your Name</label>
-                    <input type="text" placeholder="Your Name" id="name" name="name" class="form-input" />
-                    <label for="email">Your Email</label>
-                    <input type="email" placeholder="Email Address" id="email" name="email" class="form-input" />
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
-                    <p>
-                        Would you like a copy of my resume?
-                        <span class="radio-wrapper">
-                            <input type="radio" name="trainer-confirm" id="trainer-yes" />
-                            <label for="res-yes">Yes</label>
-                        </span>
-                        <span class="radio-wrapper">
-                            <input type="radio" name="trainer-confirm" id="trainer-no" />
-                            <label for="res-no">No</label>
-                        </span>
-                    </p>
-                    <p>
-                    <span class="checkbox-wrapper">
-                        <input type="checkbox" name="checkpoint1" id="checkbox" />
-                        <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
-                    </span>
-                    </p>
-                    <button type="submit">
-                        You will hear from us very soon!
-                    </button>
-                </form>
-            </div> -->
-        </section>
-        <!-- HERO END -->
 
-        <!-- MY STORY -->
-        <section id="mystory">
-                <h2 class="section-title primary-border">    
-                        MY STORY 
-                </h2>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-cta">
+            <h1></h1> <br>
+            <p>
+                Hello there! I am <span class="callmethis">Nell-e Medina</span>, a beginner coder with a mission of reaching out to other coders out there to build an application that could bring the world together. I am always willing to learn new things,
+                new skills and new knowledge in order to share it with others and encourage others to contribute to a more ethical and secure coding experience.
+            </p>
+        </div>
 
-            <div class="mystory-item">
-                <p>
-                    I love learning new skills. I am also happy to meet other people who are exploring and challenging the limits of what they can do. I believe that there is no limit to learning. 
-                    I have an old background in software development. I used to code using Visual Basic. It was the only programming language I know when I graduated college since we used it heavily on our thesis. 
-                    I remember how eager I was to solve a logical problem when I am dealing with programs. I was also given the chance to teach it and help students get through their thesis in college.  
-                    I migrated to the United States in 2009 and it took me a while to get my feet back into the IT industry. 
-                    I worked in the Consulting Industry for over 5 years, working in IT and Security Compliance.  
-                    I am currently working as a Cybersecurity Analyst at a retail corporation. I am enjoying this job and I would like to expand my skills in the software development in order to combine it with my current skills therefore strengthening my aspirations of creating things that would provide protection of human data and privacy.
-                    My goal is to continue learning programming as much as I can. 
-                    I always love to be a beginner. I treat myself as a beginner at all times in order for me to transfer the knowledge and skills to anyone with much more patience and eagerness. 
-                    Aside from computing, I also have a passion for art. I love drawing, painting with mediums such as watercolor and oil paint. I am also an aspiring artist. I do have a long way to go in this industry. However, I only do it as a hobby. 
-                </p>
-            </div>  
-        </section>
-        <!--MY STORY END-->
+    </section>
+    <!-- HERO END -->
 
-        <!-- WORK  -->
-        <section id="work">
-            <!-- <div class="flex-row"> -->
-                <h2 class="section-title primary-border">
-                    MY WORK
-                </h2>
-            <!--</div> -->
+    <main>
 
-            <!-- WORK First Batch -->
-            <div class="work1">
-                <article class="projectX">
-                <img src="./assets/images/runbuddy.JPG" alt="runbuddy website with a yellow and green background" onclick="window.open('https://nellirism.github.io/runbuddy/', '_blank');" />
-                <div class="project-bio">
-                    <h4 class="project-name">Run Buddy</h4>
-                    <h5 class="project-desc">Health and Fitness Website</h5>
-                    <h5 class="project-desc">Completion Date: March 2021</h5>
+        <div class="container">
+            <div class="row py-lg-5 border-bottom">
+                <div class="col-lg-6 col-md-8 mx-auto justify-content-center text-center">
+                    <h2 class="fw-light m-1"></h2>
+                    <input type="text" class="form-control m-1" placeholder="Project Name, ">
+                    <button type="button" class="btn btn-outline-secondary m-1">Search</button>
                 </div>
-
-                </article>
-
-                <article class="projectX">
-                <img src="./assets/images/horiseon.JPG" alt="horiseon website with 4 people in the background" onclick="window.open('https://nellirism.github.io/cerebreo-code/', '_blank');" />
-                <div class="project-bio">
-                    <h4 class="project-name">Horiseon Marketing</h4>
-                    <h5 class="project-desc">Social Media Marketing Website</h5>
-                    <h5 class="project-desc">Completion Date: March 2021</h5>
-                </div>
-                </article>
-
-                <article class="projectX">
-                <img src="./assets/images/proejctaquanauticus.JPG" alt="Blue heading with a search bar and a search button to enter city" onclick="window.open('https://patricklago21.github.io/ucberk-project-1/', '_blank');"/>
-                <div class="project-bio">
-                    <h4 class="project-name">Project Aqua Nauticus</h4>
-                    <h5 class="project-desc">Marine Health application</h5>
-                    <h5 class="project-desc">Completion Date: May 2021</h5>
-                </div>             
             </div>
 
-            <!-- WORK Second Batch -->
-            <div class="work2">
-                <article class="projectX">
-                <img src="./assets/images/comingsoonorange.jpg" alt="coming soon sign in orange" />
-                <div class="project-bio">
-                    <h4 class="project-name">Project Orange</h4>
-                    <h5 class="project-desc">Future Project</h5>
-                    <h5 class="project-desc">Completion Date: Not too distant future</h5>
-                </div>
-                </article>
 
-                <article class="projectX">
-                <img src="./assets/images/comingsoongreen.jpg" alt="coming soon sign in green" />
-                <div class="project-bio">
-                    <h4 class="project-name">Project Green II</h4>
-                    <h5 class="project-desc">Future Project</h5>
-                    <h5 class="project-desc">Completion Date: Not too distant future</h5>
-                </div>
-                </article>
-
-                <article class="projectX">
-                    <img src="./assets/images/comingsoonred.jpg" alt="coming soon sign in red" />
-                    <div class="project-bio">
-                        <h4 class="project-name">Project Red</h4>
-                        <h5 class="project-desc">Future Project</h5>
-                        <h5 class="project-desc">Completion Date: Not too distant future</h5>
+            <!-- hauskeepr cards -->
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="card border-primary m-2">
+                        <div class="card-header">Run Buddy</div>
+                        <img src="./public/images/runbuddy.JPG" alt="runbuddy website with a yellow and green background" onclick="window.open('https://nellirism.github.io/runbuddy/', '_blank');" />
+                        <div class="card-body text-primary text-center">
+                            <h5 class="card-title">Health & Fitness</h5>
+                            <h6 class="card-subtitle text-secondary mb-2">Completion Date: March 2021</h6>
+                            <button type="button" class="btn btn-primary btn-sm" onclick="window.open('https://nellirism.github.io/runbuddy/', '_blank');">Learn More</button>
+                        </div>
                     </div>
-                    </article>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="card border-primary m-2">
+                        <div class="card-header">Horiseon Marketing</div>
+                        <img src="./public/images/horiseon.JPG" alt="horiseon website with 4 people in the background" onclick="window.open('https://nellirism.github.io/cerebreo-code/', '_blank');" />
+                        <div class="card-body text-primary text-center">
+                            <h5 class="card-title">Social Media & Marketing</h5>
+                            <h6 class="card-subtitle text-secondary mb-2">Completion Date: March 2021</h6>
+                            <button type="button" class="btn btn-primary btn-sm" onclick="window.open('https://nellirism.github.io/cerebreo-code/', '_blank');">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="card border-primary m-2">
+                        <div class="card-header">Project Aqua Nauticus (PAN)</div>
+                        <img src="./public/images/proejctaquanauticus.JPG" alt="Blue heading with a search bar and a search button to enter city" onclick="window.open('https://patricklago21.github.io/ucberk-project-1/', '_blank');" />
+                        <div class="card-body text-primary text-center">
+                            <h5 class="card-title">Marine Health Application</h5>
+                            <h6 class="card-subtitle text-secondary mb-2">Completion Date: May 2021</h6>
+                            <button type="button" class="btn btn-primary btn-sm" onclick="window.open('https://patricklago21.github.io/ucberk-project-1/', '_blank');">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="card border-primary m-2">
+                        <div class="card-header">hausKeepr</div>
+                        <img src="./public/images/hauskeepr.JPG" alt="Blue heading with a search bar and a search button to enter city" onclick="window.open('https://hauskeepr-mvp.herokuapp.com/', '_blank');" />
+                        <div class="card-body text-primary text-center">
+                            <h5 class="card-title">Housekeepers Community Application</h5>
+                            <h6 class="card-subtitle text-secondary mb-2">Completion Date: June 2021</h6>
+                            <button type="button" class="btn btn-primary btn-sm" onclick="window.open('https://hauskeepr-mvp.herokuapp.com/', '_blank');">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="card border-primary m-2">
+                        <div class="card-header">Project 3</div>
+                        <img src="./public/images/hauskeepr.JPG" alt="Blue heading with a search bar and a search button to enter city" onclick="window.open('https://hauskeepr-mvp.herokuapp.com/', '_blank');" />
+                        <div class="card-body text-primary text-center">
+                            <h5 class="card-title">Coming Very Soon</h5>
+                            <h6 class="card-subtitle text-secondary mb-2">Completion Date: XX 2021</h6>
+                            <button type="button" class="btn btn-primary btn-sm">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="card border-primary m-2">
+                        <div class="card-header">Project 4</div>
+                        <img src="./public/images/hauskeepr.JPG" alt="Blue heading with a search bar and a search button to enter city " onclick="window.open( 'https://hauskeepr-mvp.herokuapp.com/', '_blank'); " />
+                        <div class="card-body text-primary text-center ">
+                            <h5 class="card-title ">Coming Very Soon</h5>
+                            <h6 class="card-subtitle text-secondary mb-2 ">Completion Date: XX 2021</h6>
+                            <button type="button " class="btn btn-primary btn-sm ">Learn More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+
+        </div>
+
+    </main>
 
 
-        <!-- WORD END -->
 
 
-        <!-- "reach out" start -->
-        <section id="reach-out" class="contact">
-            <div class="flex-row">
-            <h2 class="section-title secondary-border">
-                REACH OUT
-            </h2>
+    <nav class="navbar text-primary align-items-center border-top ">
+        <div class="container-fluid justify-content-center mt-5 ">
+            <h6 class=" ">&#128155; Designed by: &copy; Kind Koder </h6>
+        </div>
+
+        <div class="container justify-content-center text-dark ">
+            <div class="mx-2 ">
+                <p>About Me</p>
             </div>
-    
-            <div class="contact-info">
-            <div>
-                <h3>KindKoder</h3>
+            <div class="mx-2 ">
                 <p>
-                Would you like a copy of my resume? 
-                <br/>
-                Please reach out and I'll be glad to discuss my portfolio with you!
+                    <a href="/support ">Contact Me</a>
                 </p>
-    
-                <address>
-                99 Elefant Street <br/>
-                Green Town, IS 641<br/>
-                <br/>
-                P: 650.150.1855<br/>
-                E: <a href="mailto:info@kindkoder.io">info@kindkoder.io</a>
-                </address>    
             </div>
-    
-            <div class="contact-form">
-                <h3>Contact Us</h3>
-                <form>
-                <label for="contact-name">Your Name</label>
-                <input type="text" id="contact-name" placeholder="Your Name" />
-            
-                <label for="contact-message">Message</label>
-                <textarea id="contact-message" placeholder="Message"></textarea>
-            
-                <button type="submit">Submit</button>
-                </form>
-            </div>
-            
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus"
-                frameborder="0" style="border:0" allowfullscreen>
-            </iframe>
-            </div>
-        </section>
-        <!-- "reach out" end -->
+        </div>
+    </nav>
 
-        <!-- footer -->
-        <footer>
-            <h2>&#128155; Designed by: KindKoder</h2>
-            <div>
-                <a href="index.html">Read Our Privacy Policy</a><br/>
-                <h2>
-                    &copy; KindKoder 2021 | All rights reserved.
-                </h2> 
-            </div>
-        </footer>
-        <!-- footer end -->
 </body>
+
 </html>
