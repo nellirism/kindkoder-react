@@ -13,11 +13,21 @@
 
 ##Desktop screen:
 
-![Hom](https://user-images.githubusercontent.com/71202250/113499956-1d8f3e00-94cf-11eb-8982-eb0b9ad3e8fd.JPG)
+![landing](https://user-images.githubusercontent.com/71202250/124372674-f4528b00-dc40-11eb-8f8b-0eb7fdb8a6c5.JPG)
+
+![Landing2](https://user-images.githubusercontent.com/71202250/124372676-f74d7b80-dc40-11eb-8e89-e0ef5f0ef7c6.JPG)
+
+![story](https://user-images.githubusercontent.com/71202250/124372681-fae10280-dc40-11eb-9394-158f372c466c.jpg)
+
+![contact](https://user-images.githubusercontent.com/71202250/124372682-fe748980-dc40-11eb-8858-2648b080cfa5.JPG)
+
 
 ##Smaller devices screen example:
 
-![ipad](https://user-images.githubusercontent.com/71202250/113500038-e1a8a880-94cf-11eb-84a7-25fabbc02912.JPG)
+![ipadpro](https://user-images.githubusercontent.com/71202250/124372726-61feb700-dc41-11eb-978f-9780948efb5e.JPG)
+
+![iphone](https://user-images.githubusercontent.com/71202250/124372728-63c87a80-dc41-11eb-9783-cd91d9ec3e50.JPG)
+
 
 <a name="urlz"></a>
 ## 2. Follow The Link
