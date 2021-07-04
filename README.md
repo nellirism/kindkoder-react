@@ -7,7 +7,7 @@
 ## 1. Description
 
 This is a basic representation of my work while doing the Coding Bootcamp at UC Berkeley Extensions. The projects posted here are selected and required by the curriculum. 
-If you have any contributions to make, please reach out to me. I would love to hear your feedback and improve my work. 
+If you have any contributions to make, please reach out to me. I would love to hear your feedback and improve my work. I hope you enjoy my journey as much as I have enjoyed every bit of it.  
 
 ### This Is the Landing Page to Nell-e Medina's Portfolio.
 
