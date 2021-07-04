@@ -1,0 +1,31 @@
+{
+    "name": "kindkoder",
+    "version": "1.0.0",
+    "description": "1. [ Description. ](#desc)\r 2. [ Follow the Link. ](#urlz)\r 3. [ Instructions for Users. ](#tips)\r 4. [ Contributing. ](#contributing)\r 5. [ License. ](#license)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nellirism/kindkoder.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nellirism/kindkoder/issues"
+    },
+    "homepage": "https://github.com/nellirism/kindkoder#readme",
+    "dependencies": {
+        "@sendgrid/mail": "^7.4.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.2",
+        "mysql2": "^2.2.5",
+        "nodemon": "^2.0.9",
+        "sequelize": "^6.6.4"
+    }
+}

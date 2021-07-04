@@ -186,17 +186,6 @@ canvas {
 }
 
 
-/* .card-img-top {
-    width: 100%;
-    height: 10vw;
-    object-fit: cover;
-} */
-
-.img-rounded {
-    border-radius: 100%;
-}
-
-
 /* updated colours */
 
 .btn-primary {
