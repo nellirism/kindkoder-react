@@ -22,7 +22,7 @@ function Nav({ pages, setPage }) {
             <a onClick={() => setPage(pages[1])}>Contact</a>
           </li>
           <li>
-            <a onClick={() => setPage(pages[1])}>Story</a>
+            <a onClick={() => setPage(pages[2])}>Story</a>
           </li>
           <li>
             <a onClick={() => setPage(pages[0])}>Home</a>
