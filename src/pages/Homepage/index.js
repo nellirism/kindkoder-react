@@ -53,6 +53,7 @@ function Homepage() {
                   </h6>
                   <button type="button" className="btn btn-success btn-sm">
                     <a
+                      class="lynk"
                       href="https://nellirism.github.io/runbuddy/"
                       target="_blank"
                       rel="noreferrer"
@@ -77,12 +78,15 @@ function Homepage() {
                   <h6 className="card-subtitle text-secondary mb-2">
                     Completion Date: March 2021
                   </h6>
-                  <button
-                    type="button"
-                    className="btn btn-success btn-sm"
-                    onClick="window.open('https://nellirism.github.io/cerebreo-code/', '_blank');"
-                  >
-                    Learn More
+                  <button type="button" className="btn btn-success btn-sm">
+                    <a
+                      class="lynk"
+                      href="https://nellirism.github.io/cerebreo-code/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Learn More
+                    </a>
                   </button>
                 </div>
               </div>
@@ -101,12 +105,15 @@ function Homepage() {
                   <h6 className="card-subtitle text-secondary mb-2">
                     Completion Date: April 11 2021
                   </h6>
-                  <button
-                    type="button"
-                    className="btn btn-success btn-sm"
-                    onClick="window.open('https://nellirism.github.io/gjerenuk/', '_blank');"
-                  >
-                    Learn More
+                  <button type="button" className="btn btn-success btn-sm">
+                    <a
+                      class="lynk"
+                      href="https://nellirism.github.io/gjerenuk/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Learn More
+                    </a>
                   </button>
                 </div>
               </div>
@@ -125,12 +132,15 @@ function Homepage() {
                   <h6 className="card-subtitle text-secondary mb-2">
                     Completion Date: May 9 2021
                   </h6>
-                  <button
-                    type="button"
-                    className="btn btn-success btn-sm"
-                    onClick="window.open('https://patricklago21.github.io/ucberk-project-1/', '_blank');"
-                  >
-                    Learn More
+                  <button type="button" className="btn btn-success btn-sm">
+                    <a
+                      class="lynk"
+                      href="https://patricklago21.github.io/ucberk-project-1/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Learn More
+                    </a>
                   </button>
                 </div>
               </div>
@@ -149,12 +159,15 @@ function Homepage() {
                   <h6 className="card-subtitle text-secondary mb-2 ">
                     Completion Date: June 6 2021
                   </h6>
-                  <button
-                    type="button "
-                    className="btn btn-success btn-sm "
-                    onClick="window.open( 'https://nelle898steno.herokuapp.com/', '_blank'); "
-                  >
-                    Learn More
+                  <button type="button " className="btn btn-success btn-sm">
+                    <a
+                      class="lynk"
+                      href="https://nelle898steno.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Learn More
+                    </a>
                   </button>
                 </div>
               </div>
@@ -173,12 +186,15 @@ function Homepage() {
                   <h6 className="card-subtitle text-secondary mb-2 ">
                     Completion Date: July 4 2021
                   </h6>
-                  <button
-                    type="button "
-                    className="btn btn-success btn-sm "
-                    onClick="window.open( 'https://hauskeepr-mvp.herokuapp.com/', '_blank'); "
-                  >
-                    Learn More
+                  <button type="button " className="btn btn-success btn-sm">
+                    <a
+                      class="lynk"
+                      href="https://hauskeepr-mvp.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Learn More
+                    </a>
                   </button>
                 </div>
               </div>
@@ -198,12 +214,15 @@ function Homepage() {
                   <h6 className="card-subtitle text-secondary mb-2 ">
                     Completion Date: XX 2021
                   </h6>
-                  <button
-                    type="button "
-                    className="btn btn-success btn-sm "
-                    onClick="window.open( 'https://hauskeepr-mvp.herokuapp.com/', '_blank'); "
-                  >
-                    Learn More
+                  <button type="button " className="btn btn-success btn-sm">
+                    <a
+                      class="lynk"
+                      href="https://hauskeepr-mvp.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Learn More
+                    </a>
                   </button>
                 </div>
               </div>
@@ -225,7 +244,14 @@ function Homepage() {
                     Completion Date: XX 2021
                   </h6>
                   <button type="button " className="btn btn-success btn-sm ">
-                    Learn More
+                    <a
+                      class="lynk"
+                      href="https://hauskeepr-mvp.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Learn More
+                    </a>
                   </button>
                 </div>
               </div>
