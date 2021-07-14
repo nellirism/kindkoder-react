@@ -32,6 +32,11 @@ body {
   background-color: white;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 canvas {
   position: absolute;
   top: 50%;

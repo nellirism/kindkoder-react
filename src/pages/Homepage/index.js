@@ -51,12 +51,14 @@ function Homepage() {
                   <h6 className="card-subtitle text-secondary mb-2">
                     Completion Date: March 2021
                   </h6>
-                  <button
-                    type="button"
-                    className="btn btn-success btn-sm"
-                    onClick="window.open('https://nellirism.github.io/runbuddy/', '_blank');"
-                  >
-                    Learn More
+                  <button type="button" className="btn btn-success btn-sm">
+                    <a
+                      href="https://nellirism.github.io/runbuddy/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Learn More
+                    </a>
                   </button>
                 </div>
               </div>
@@ -231,8 +233,6 @@ function Homepage() {
           </div>
         </div>
       </main>
-
-      
     </div>
   );
 }
